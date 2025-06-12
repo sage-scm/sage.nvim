@@ -184,8 +184,6 @@ function M.setup(opts)
   -- Set up keymaps and which-key integration
   setup_keymaps()
   setup_which_key()
-  
-  vim.notify('sage.nvim: Plugin loaded successfully!', vim.log.levels.INFO)
 end
 
 return M
